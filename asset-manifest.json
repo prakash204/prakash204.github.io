@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d67be9f.css",
+    "main.css": "/static/css/main.13544598.css",
     "main.js": "/static/js/main.dddb4022.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/baba-budhangiri.jpg": "/static/media/baba-budhangiri.f4cd8e9c0def5d601d5c.jpg",
@@ -11,12 +11,12 @@
     "static/media/sunset-nitk-beach.jpg": "/static/media/sunset-nitk-beach.1c65118e7d583e2db10f.jpg",
     "static/media/sunrise-mt3.jpg": "/static/media/sunrise-mt3.6853802aa5209ef1efe2.jpg",
     "index.html": "/index.html",
-    "main.1d67be9f.css.map": "/static/css/main.1d67be9f.css.map",
+    "main.13544598.css.map": "/static/css/main.13544598.css.map",
     "main.dddb4022.js.map": "/static/js/main.dddb4022.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d67be9f.css",
+    "static/css/main.13544598.css",
     "static/js/main.dddb4022.js"
   ]
 }
