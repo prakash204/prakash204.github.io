@@ -1,20 +1,22 @@
 .header {
     top: 0;
-    background-color: #da1561;
-    font-size: 40px;
+    background-color: #edd221;
+    font-size: 5vh;
     height : 15vh;
     text-align: center;   
 }
 
+
+
 .header > h1 {
-    color: #da1561;
+    color: #edd221;
     mix-blend-mode: difference;
 }
 
 
 .footer {
     bottom: 0;
-    background-color: #da1561;
+    background-color: #edd221;
     height: 20vh;
     color:white;
 }
@@ -26,7 +28,8 @@
 
 .icon-box {
     display: block;
-    margin-left:42%;
+    margin-left:auto;
+    margin : auto;
     width : 40vh;
     /* padding : 1vh; */
 }
@@ -34,9 +37,33 @@
 .Icons {
     margin : 2vh;
     color : white;
-    font-size: 30px;
+    font-size: 5vh;
 }
 
 .Icons :hover {
     color :black;
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        font-size: 4vh;
+        height: 10vh;
+    }
+    }
+
+@media only screen and (max-width :425px) {
+    .header  {
+        font-size : 2.5vh;
+        height : 5vh;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .icon-box {
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+
 }
