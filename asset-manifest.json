@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ded13f5f.css",
-    "main.js": "/static/js/main.aff1ce22.js",
+    "main.css": "/static/css/main.dafd5495.css",
+    "main.js": "/static/js/main.abaf2405.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/baba-budhangiri.jpg": "/static/media/baba-budhangiri.f4cd8e9c0def5d601d5c.jpg",
     "static/media/trek.jpg": "/static/media/trek.8df2624efe662d5e4469.jpg",
@@ -11,12 +11,12 @@
     "static/media/sunset-nitk-beach.jpg": "/static/media/sunset-nitk-beach.1c65118e7d583e2db10f.jpg",
     "static/media/sunrise-mt3.jpg": "/static/media/sunrise-mt3.6853802aa5209ef1efe2.jpg",
     "index.html": "/index.html",
-    "main.ded13f5f.css.map": "/static/css/main.ded13f5f.css.map",
-    "main.aff1ce22.js.map": "/static/js/main.aff1ce22.js.map",
+    "main.dafd5495.css.map": "/static/css/main.dafd5495.css.map",
+    "main.abaf2405.js.map": "/static/js/main.abaf2405.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ded13f5f.css",
-    "static/js/main.aff1ce22.js"
+    "static/css/main.dafd5495.css",
+    "static/js/main.abaf2405.js"
   ]
 }
