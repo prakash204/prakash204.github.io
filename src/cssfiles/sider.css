@@ -1,0 +1,20 @@
+.sider {
+    right :0;
+    width: 100vh;
+    position:sticky;
+    background-color: black;
+}
+
+.side-items > a {
+    font-size: 30px;
+}
+
+.side-items :hover {
+    /* background-color: slategrey; */
+    color : #EF79A2;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

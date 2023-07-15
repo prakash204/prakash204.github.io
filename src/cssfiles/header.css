@@ -1,0 +1,42 @@
+.header {
+    top: 0;
+    background-color: #da1561;
+    font-size: 40px;
+    height : 15vh;
+    text-align: center;   
+}
+
+.header > h1 {
+    color: #da1561;
+    mix-blend-mode: difference;
+}
+
+
+.footer {
+    bottom: 0;
+    background-color: #da1561;
+    height: 20vh;
+    color:white;
+}
+
+.footer > p {
+    text-align: center;
+}
+
+
+.icon-box {
+    display: block;
+    margin-left:42%;
+    width : 40vh;
+    /* padding : 1vh; */
+}
+
+.Icons {
+    margin : 2vh;
+    color : white;
+    font-size: 30px;
+}
+
+.Icons :hover {
+    color :black;
+}

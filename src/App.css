@@ -1,0 +1,93 @@
+.App {
+    background-color: #da1561;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 30vh;
+    border-top-right-radius: 30vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.home {
+    width: 100vh;
+    height: auto;
+}
+
+.pic-box {
+    width : 40vh;
+    height: 50vh;
+    display: block;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    /* margin-right: auto; */
+}
+
+.pic-box > img {
+    margin : 20%;
+    border-radius: 50%;
+    height : 45vh;
+    width : 50vh;
+}
+
+
+.about {
+    width: 80vh;
+    color : white;
+    font-size: larger;
+    text-align: center;
+    padding: 15% 5% 5% 5%;
+}
+
+.about > a {
+    color: #da1561;
+    text-decoration: none;
+}
+
+.slide {
+    height: 60vh;
+    align-items: center;
+    margin-bottom: 15vh;
+    /* background-color: aquamarine; */
+}
+.slide > img{
+    max-height: 100%;
+    max-width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin : 0 10% 15% 10%; */
+    /* padding-bottom: 5%; */
+}
+
+
+
+.collapser {
+    background-color: black;
+    display: block;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    border-bottom-left-radius: 50vh;
+    border-bottom-right-radius: 50vh;
+}
+
+.collapser > button{
+    cursor: pointer;
+    font-size: larger;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    height: 10vh;
+    border-radius: 4vh;
+}
+
+.collapser > button:hover {
+    background-color: #da1561;
+    color: white;
+}
