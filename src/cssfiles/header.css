@@ -11,6 +11,8 @@
 
 .footer {
     bottom: 0;
+    right: 0;
+    left: 0;
     background-color: #edd221;
     height: 20vh;
     color:black;
@@ -21,27 +23,31 @@
     text-align: center;
 }
 
-
 .icon-box {
     display: block;
-    margin-left:auto;
-    margin : auto;
-    width : 40vh;
-    /* padding : 1vh; */
+    margin-left: 44%;
+    margin-right : 44%;
+    width : 20%;
 }
 
 .Icons {
-    margin : 2vh;
+    margin : 3%;
     color : black;
-    font-size: 5vh;
+    font-size: 20px;
 }
 
 .Icons :hover {
     color :white;
 }
+
 @media only screen and (max-width: 768px) and (min-width: 426px) {
     .header {
         font-size: 50px;
+    }
+
+    .Icons {
+        font-size: 16px;
+
     }
     }
 
@@ -58,8 +64,13 @@
     }
 
     .icon-box {
-        margin-left: 10vh;
-        margin-right: 10vh;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    .Icons {
+        margin : 2%;
+        font-size: 13px;
     }
 
 }
