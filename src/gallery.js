@@ -38,7 +38,10 @@ function Gallery(props) {
 
 function Projects() {
     const [display, toggleDisplay] = useState(false);
-
+    console.log(window.innerWidth)
+    if (window.innerWidth < 425 && !display) {
+        toggleDisplay(!display);
+    }
     return (
         <div className='collapser'>
         <button onClick={()=>toggleDisplay(!display)}>

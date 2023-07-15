@@ -2,14 +2,16 @@
     background-color: #edd221;
     display: flex;
     flex-direction: column;
+    left : 0;
+    right: 0;
 }
 
 .content {
     background-color: black;
     display: flex;
     flex-direction: row;
-    border-top-left-radius: 30vh;
-    border-top-right-radius: 30vh;
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -25,12 +27,12 @@
     width : 40vh;
     height: 40vh;
     display: block;
-    margin : 20% 10% 0 30%;
+    margin : 10% 10% 0 20%;
     /* margin-right: auto; */
 }
 
 .pic-box > img {
-    margin : 15%;
+    margin : 8%;
     border-radius: 50%;
     height : 100%;
     width : 100%;
@@ -39,9 +41,9 @@
 .about {
     width: 100%;
     color : white;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
-    padding: 15% 5% 5% 5%;
+    padding: 12% 5% 5% 5%;
 }
 
 .about > a {
@@ -81,14 +83,14 @@
     cursor: pointer;
     font-size: larger;
     width: 80%;
-    margin: 5% 10% 5% 10%;
-    height: 10vh;
+    margin: 3% 10% 3% 10%;
+    height: 8vh;
     border-radius: 4vh;
 }
 
 .collapser > button:hover {
     background-color: #edd221;
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width : 768px)  {
@@ -138,23 +140,24 @@
 
 @media only screen and (max-width : 425px)  {
     .pic-box {
-        width : 25vh;
-        height: 20vh;
+        width : 100px;
+        height: 80px;
+        margin-top: 20px;
+        padding-top: 50px;
         display: block;
         padding-top : 4vh;
-        margin-left: 12vh;
-        margin-right: auto;
+        margin-left: 27%;
+        margin-right: 30%;
     }
+
     .collapser > button{
-        cursor: pointer;
-        font-size: 2.2vh;
-        width: 70%;
-        margin: 0% 10% 5% 15%;
-        height: 6vh;
-        border-radius: 5vh;
+        display: none;
     }
 
     .about {
         font-size: 12px;
     }
+
+
+
 }
